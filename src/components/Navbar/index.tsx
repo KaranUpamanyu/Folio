@@ -45,7 +45,7 @@ function Navbar() {
         <NavLink href="https://github.com/KaranUpamanyu" target="_blank">
           GitHub
         </NavLink>
-        <NavLink href="#" target="_blank">
+        <NavLink href="/resume.pdf" target="_blank">
           Resume
         </NavLink>
       </div>
