@@ -8,7 +8,7 @@ const Nav = styled.nav`
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 16px;
+  padding: 16px 0;
   width: auto;
 `;
 
@@ -22,7 +22,6 @@ const NavLink = styled.a`
   &:hover {
     color: var(--color-link-active);
     text-decoration: underline wavy var(--color-emerald-500);
-    outline: none;
   }
 `;
 
@@ -34,7 +33,6 @@ const Name = styled.a`
   &:hover {
     color: #171717;
     text-decoration: underline wavy var(--color-emerald-500);
-    outline: none;
   }
 `;
 
