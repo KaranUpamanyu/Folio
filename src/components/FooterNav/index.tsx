@@ -5,7 +5,7 @@ import styled from "styled-components";
 
 const FooterNav = styled.footer`
   position: fixed;
-  bottom: 80px;
+  bottom: 40px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 10;
