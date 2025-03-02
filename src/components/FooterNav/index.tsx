@@ -14,41 +14,39 @@ const FooterNav = styled.footer`
   flex-direction: row;
   align-items: flex-end;
   padding: 8px;
-  height: 64px;
+  height: 52px;
   width: auto;
 
   transition: width ease-in-out 400ms;
 
   .footer-nav-item {
-    height: 48px;
-    width: 48px;
+    height: 36px;
+    width: 36px;
     transition: width cubic-bezier(0.25, 1, 0.5, 1) 100ms,
       height cubic-bezier(0.25, 1, 0.5, 1) 100ms;
   }
 
   .footer-nav-item:hover {
     height: 72px;
-    // height: calc(72px + var(--dock-offset-right, 0px));
     width: 72px;
-    // width: calc(72px + var(--dock-offset-right, 0px));
   }
 
   .footer-nav-item:hover + .footer-nav-item {
-    height: calc(64px + var(--dock-offset-right, 0px));
-    width: calc(64px + var(--dock-offset-right, 0px));
+    height: calc(60px + var(--dock-offset-right, 0px));
+    width: calc(60px + var(--dock-offset-right, 0px));
   }
   .footer-nav-item:has(+ .footer-nav-item:hover) {
-    height: calc(64px + var(--dock-offset-left, 0px));
-    width: calc(64px + var(--dock-offset-left, 0px));
+    height: calc(60px + var(--dock-offset-left, 0px));
+    width: calc(60px + var(--dock-offset-left, 0px));
   }
 
   .footer-nav-item:hover + .footer-nav-item + .footer-nav-item {
-    height: calc(56px + var(--dock-offset-right, 0px));
-    width: calc(56px + var(--dock-offset-right, 0px));
+    height: calc(48px + var(--dock-offset-right, 0px));
+    width: calc(48px + var(--dock-offset-right, 0px));
   }
   .footer-nav-item:has(+ .footer-nav-item + .footer-nav-item:hover) {
-    height: calc(56px + var(--dock-offset-left, 0px));
-    width: calc(56px + var(--dock-offset-left, 0px));
+    height: calc(48px + var(--dock-offset-left, 0px));
+    width: calc(48px + var(--dock-offset-left, 0px));
   }
 `;
 
