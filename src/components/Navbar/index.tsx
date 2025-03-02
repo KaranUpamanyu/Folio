@@ -7,21 +7,20 @@ const Nav = styled.nav`
   isolation: isolate;
   display: flex;
   flex-direction: row;
-  align-items: flex-end;
-  padding-inline: 8px;
-  height: 58px;
+  align-items: center;
+  padding: 16px;
   width: auto;
 `;
 
 const NavLink = styled.a`
   font-size: 0.875rem;
-  color: #a3a3a3;
+  color: var(--color-link);
   text-underline-offset: 4px;
   cursor: alias;
   transition: color 150ms;
 
   &:hover {
-    color: #171717;
+    color: var(--color-link-active);
     text-decoration: underline wavy var(--color-emerald-500);
     outline: none;
   }
