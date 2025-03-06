@@ -7,7 +7,7 @@ const image = {
   alt: "Lyearn homepage",
 };
 
-function Lyearn() {
+function LyearnCard() {
   return (
     <GridItem className="aspect-[2] sm:col-span-2">
       <LinkCard title="Lyearn" type="Work" image={image} to={"/lyearn"} />
@@ -15,4 +15,4 @@ function Lyearn() {
   );
 }
 
-export default Lyearn;
+export default LyearnCard;

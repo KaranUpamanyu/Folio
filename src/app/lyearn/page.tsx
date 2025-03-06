@@ -1,6 +1,6 @@
 import FooterNavbar from "@/components/FooterNav";
 import Navbar from "@/components/Navbar";
-import Springboard from "@/components/Springboard";
+import Springboard from "@/components/Cards/Work/SpringboardCard";
 import PageHeader from "@/components/PageHeader";
 import { LyearnContent } from "./const";
 

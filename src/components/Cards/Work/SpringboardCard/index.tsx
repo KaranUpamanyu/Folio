@@ -7,7 +7,7 @@ const image = {
   alt: "Springboard homepage",
 };
 
-function Springboard() {
+function SpringboardCard() {
   return (
     <GridItem className="aspect-[2] sm:col-span-2">
       <LinkCard title="Springboard" type="Work" image={image} />
@@ -15,4 +15,4 @@ function Springboard() {
   );
 }
 
-export default Springboard;
+export default SpringboardCard;
