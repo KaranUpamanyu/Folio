@@ -29,7 +29,7 @@ function Greeting() {
           <Highlight>
             <Link>build</Link>
           </Highlight>{" "}
-          bleeding-edge systems and address complex problems.
+          cutting-edge systems and solve complex problems.
           <br />
           <br />I currently work at{" "}
           <Highlight>
@@ -47,8 +47,8 @@ function Greeting() {
           <br />
           <br />
           In my free time, I enjoy playing the <Highlight>guitar</Highlight> 🎸,
-          flying my <Highlight>kite</Highlight> 🪁, and strolling around the{" "}
-          <Highlight>beach</Highlight>. 🌊
+          flying my <Highlight>kite</Highlight> 🪁, and taking strolls around
+          the <Highlight>beach</Highlight>. 🌊
         </h1>
       </div>
     </GridItem>
