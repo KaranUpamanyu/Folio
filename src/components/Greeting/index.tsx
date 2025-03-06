@@ -7,6 +7,7 @@ import GridItem from "@/components/GridItem";
 const Link = styled.a`
   cursor: alias;
   &:hover {
+    text-underline-offset: 4px;
     text-decoration: underline wavy var(--color-emerald-500);
   }
 `;

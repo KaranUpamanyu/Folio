@@ -34,3 +34,7 @@ h5,
 h6 {
   font-family: var(--font-fraunces);
 }
+
+.inter {
+  font-family: var(--font-inter);
+}
