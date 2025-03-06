@@ -1,4 +1,4 @@
-import FooterNavbar from "@/components/FooterNav";
+// import FooterNavbar from "@/components/FooterNav";
 import Navbar from "@/components/Navbar";
 import Springboard from "@/components/Cards/Work/SpringboardCard";
 import GraphQLOptimizationCard from "@/components/Cards/Projects/GraphQLOptimization";
