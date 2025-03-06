@@ -8,18 +8,21 @@ interface PageHeaderProps {
 
 function PageHeader({ title, type, subtitle }: PageHeaderProps) {
   return (
-    <div className="flex flex-col justify-start gap-6 pt-[32px] pb-[48px] px-[8px]">
-      <div className="flex flex-row items-center justify-start gap-2">
-        <h1 className="text-5xl">{title}</h1>
+    <div className="flex flex-col justify-start gap-6 pt-[32px] pb-[48px] px-[8px] max-w-prose">
+      <h1 className="text-5xl">
+        {title}
+
         {type ? (
-          <>
-            <p className="text-3xl font-semibold text-neutral-400 mt-[10px]">
+          <span className="no-wrap inline-flex items-center">
+            <span className="inter text-3xl font-semibold text-neutral-400 mt-[10px] mx-2">
               {" · "}
-            </p>
-            <p className="text-3xl text-neutral-400 mt-[10px]">{type}</p>
-          </>
+            </span>
+            <span className="inter text-3xl text-neutral-400 mt-[10px]">
+              {type}
+            </span>
+          </span>
         ) : null}
-      </div>
+      </h1>
       {subtitle ? (
         <div className="text-lg text-neutral-400 max-w-prose">{subtitle}</div>
       ) : null}

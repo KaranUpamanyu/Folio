@@ -19,4 +19,15 @@ export default {
       },
     },
   },
+  projects: {
+    homeGraphQL: {
+      title: "How I tweaked GraphQL to cut our homepage's load time by half",
+      type: "Project",
+      to: "/projects/graphql-optimization",
+      image: {
+        src: "/images/next-urql.png",
+        alt: "Next.js and URQL",
+      },
+    },
+  },
 };

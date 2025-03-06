@@ -1,8 +1,11 @@
 import FooterNavbar from "@/components/FooterNav";
 import Navbar from "@/components/Navbar";
 import Greeting from "@/components/Greeting";
+
 import Lyearn from "@/components/Cards/Work/LyearnCard";
 import Springboard from "@/components/Cards/Work/SpringboardCard";
+
+import GraphQLOptimizationCard from "@/components/Cards/Projects/GraphQLOptimization";
 
 export default function Home() {
   return (
@@ -12,6 +15,7 @@ export default function Home() {
         <Greeting />
         <Lyearn />
         <Springboard />
+        <GraphQLOptimizationCard />
       </div>
       {/* <FooterNavbar /> */}
     </main>
