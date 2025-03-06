@@ -19,6 +19,7 @@ function LinkCard({
   type,
   title,
   image,
+  to,
 }: {
   type: string;
   title: string;
@@ -26,10 +27,14 @@ function LinkCard({
     src: string;
     alt: string;
   };
+  to?: string;
 }) {
   console.debug({ type, title, image });
   return (
-    <LinkCardContainer className="h-full w-full rounded-md bg-neutral-50 hover:bg-neutral-100 hover:cursor-pointer flex flex-col items-start gap-2 group overflow-hidden">
+    <LinkCardContainer
+      className="h-full w-full rounded-md bg-neutral-50 hover:bg-neutral-100 hover:cursor-pointer flex flex-col items-start gap-2 group overflow-hidden"
+      href={to}
+    >
       <div className="flex flex-row items-center p-[16px] pb-[12px] w-full gap-1">
         <h2 className="text-lg text-neutral-400 group-hover:text-neutral-600 underlined-section">
           {title}
