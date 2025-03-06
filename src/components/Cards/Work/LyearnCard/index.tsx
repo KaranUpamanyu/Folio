@@ -1,16 +1,12 @@
 import React from "react";
+import data from "@/data";
 import GridItem from "@/components/GridItem";
 import LinkCard from "@/components/LinkCard";
-
-const image = {
-  src: "/images/lyearn-home.png",
-  alt: "Lyearn homepage",
-};
 
 function LyearnCard() {
   return (
     <GridItem className="aspect-[2] sm:col-span-2">
-      <LinkCard title="Lyearn" type="Work" image={image} to={"/lyearn"} />
+      <LinkCard {...data.work.lyearn} />
     </GridItem>
   );
 }

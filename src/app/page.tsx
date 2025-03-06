@@ -1,7 +1,7 @@
 import FooterNavbar from "@/components/FooterNav";
 import Navbar from "@/components/Navbar";
 import Greeting from "@/components/Greeting";
-import Lyearn from "@/components/Cards/LyearnCard";
+import Lyearn from "@/components/Cards/Work/LyearnCard";
 import Springboard from "@/components/Cards/Work/SpringboardCard";
 
 export default function Home() {
