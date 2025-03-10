@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Fraunces } from "next/font/google";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 import StyledComponentsRegistry from "@/lib/registry";
 import "./globals.css";
 
@@ -28,10 +29,11 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.variable} ${fraunces.variable} antialiased`}>
         <StyledComponentsRegistry>
-          <main className="w-full mx-auto px-8 max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-2xl relative mb-[10rem]">
+          <main className="w-full mx-auto px-8 max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-2xl relative">
             <Navbar />
             {children}
           </main>
+          <Footer />
         </StyledComponentsRegistry>
       </body>
     </html>
