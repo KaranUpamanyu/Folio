@@ -1,4 +1,3 @@
-// import FooterNavbar from "@/components/FooterNav";
 import Greeting from "@/components/Greeting";
 
 import Lyearn from "@/components/Cards/Work/LyearnCard";
@@ -15,7 +14,6 @@ export default function Home() {
         <Springboard />
         <GraphQLOptimizationCard />
       </div>
-      {/* <FooterNavbar /> */}
     </>
   );
 }
