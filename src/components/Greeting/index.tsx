@@ -6,8 +6,9 @@ import GridItem from "@/components/GridItem";
 import MotionDiv from "@/components/Motion";
 
 const Link = styled.a`
-  cursor: alias;
   text-underline-offset: 4px;
+  transition: color 150ms;
+  text-decoration: none;
 
   &:hover {
     text-decoration: underline wavy var(--color-emerald-500);
@@ -28,24 +29,25 @@ function Greeting() {
             <br />
             <br />
             I'm a deeply technical <Highlight>software engineer</Highlight>🧑‍💻
-            with a curiosity to{" "}
-            <Highlight>
-              <Link>build</Link>
-            </Highlight>{" "}
-            cutting-edge systems and solve complex problems.
+            with a curiosity to <Highlight>build</Highlight> cutting-edge
+            systems and solve complex problems.
             <br />
             <br />I currently work at{" "}
-            <Highlight>
-              <Link href="https://www.lyearn.com/" target="blank">
-                Lyearn
-              </Link>
-            </Highlight>{" "}
+            <Link
+              href="https://www.lyearn.com/"
+              target="blank"
+              className="cursor-alias text-neutral-900"
+            >
+              Lyearn
+            </Link>{" "}
             as a Product Engineer II, and have previously worked at{" "}
-            <Highlight>
-              <Link href="https://www.springboard.com/" target="blank">
-                Springboard
-              </Link>
-            </Highlight>
+            <Link
+              href="https://www.springboard.com/"
+              target="blank"
+              className="cursor-alias text-neutral-900"
+            >
+              Springboard{" "}
+            </Link>
             .
             <br />
             <br />
