@@ -38,3 +38,25 @@ h6 {
 .inter {
   font-family: var(--font-inter);
 }
+
+code {
+  background: var(--color-neutral-200);
+}
+
+ul {
+  margin-left: 20px;
+  list-style: disc;
+}
+
+ol {
+  margin-left: 20px;
+  list-style-type: decimal;
+}
+
+ol li {
+  margin-bottom: 8px;
+}
+
+ol li:first-child {
+  margin-top: 8px;
+}
