@@ -292,8 +292,8 @@ export default function Chatbot() {
         <p>Watch the demo at Sprinklr here (chatbot first shown at 3:00):</p>
         <br />
         <iframe
-          src="https://drive.google.com/file/d/1v_EVx4h5jPQWoPS2cIXkxVy2cpJ_rlRV/preview?autoplay=180"
-          className="w-full h-96"
+          src="https://drive.google.com/file/d/1v_EVx4h5jPQWoPS2cIXkxVy2cpJ_rlRV/preview"
+          className="w-full md:h-96 h-64"
         />
         <br />
       </div>
