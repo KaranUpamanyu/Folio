@@ -29,5 +29,14 @@ export default {
         alt: "Next.js and URQL",
       },
     },
+    chatbot: {
+      title: "Fixing the chatbot through better architecture",
+      type: "Project",
+      to: "/projects/chatbot",
+      image: {
+        src: "/images/blogs/chatbot/card-sm.png",
+        alt: "Chatbot",
+      },
+    },
   },
 };

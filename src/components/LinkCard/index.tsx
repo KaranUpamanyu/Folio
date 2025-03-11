@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import React from "react";
+import cn from "classnames";
 import styled from "styled-components";
 import MotionDiv from "@/components/Motion";
 
@@ -21,6 +22,7 @@ function LinkCard({
   title,
   image,
   to,
+  smallCard,
 }: {
   type: string;
   title: string;
@@ -29,6 +31,7 @@ function LinkCard({
     alt: string;
   };
   to?: string;
+  smallCard?: boolean;
 }) {
   return (
     <MotionDiv>
@@ -37,11 +40,18 @@ function LinkCard({
         href={to}
       >
         <div className="flex flex-row items-center p-[16px] pb-[12px] w-full gap-1">
-          <h2 className="text-lg text-neutral-400 group-hover:text-neutral-600 underlined-section">
-            {title}
+          <h2>
+            <span className="text-lg text-neutral-400 group-hover:text-neutral-600">
+              {/* add class underlined-section to add green underline */}
+              {title}
+            </span>
+            <span className="no-wrap inline-flex items-center inter">
+              <span className="font-semibold text-neutral-400 mt-[2px] mx-[6px]">
+                {" · "}
+              </span>
+              <span className="text-sm text-neutral-400 mt-[2px]">{type}</span>
+            </span>
           </h2>
-          <p className="font-semibold text-neutral-400 mt-[2px]">{" · "}</p>
-          <p className="text-sm text-neutral-400 mt-[2px]">{type}</p>
         </div>
 
         <Image
@@ -49,11 +59,14 @@ function LinkCard({
           alt={image.alt}
           width={1000}
           height={400}
-          className="md:px-[64px] px-[32px] group-hover:scale-103 group-hover:opacity-80 transition-transform"
+          className={cn(
+            "group-hover:scale-103 group-hover:opacity-80 transition-transform",
+            smallCard ? "px-[27.5px]" : "px-[32px] md:px-[64px]"
+          )}
         />
       </LinkCardContainer>
     </MotionDiv>
   );
 }
 
-export default LinkCard;
+export default React.memo(LinkCard);
