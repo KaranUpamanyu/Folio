@@ -377,7 +377,7 @@ export default function PerformanceOptimization() {
 
         <p>
           Through these optimizations, we improved our{" "}
-          <b>mobile PageSpeed Insights score from 30 to 50</b> (a 66% increase).
+          <b>mobile PageSpeed Insights score from 30 to 50</b>.
           Other metrics like FCP and LCP also improved significantly, making for
           a <b>much better user experience</b>.
         </p>

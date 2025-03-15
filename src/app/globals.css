@@ -75,3 +75,7 @@ a.styled-link {
 a.styled-link:hover {
   text-decoration: underline wavy var(--color-emerald-500);
 }
+
+b {
+  font-weight: 600;
+}

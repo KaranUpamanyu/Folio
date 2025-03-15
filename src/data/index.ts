@@ -47,5 +47,14 @@ export default {
         alt: "Chatbot",
       },
     },
+    payments: {
+      title: "Saving $50,000/month through payment transparency",
+      type: "Project",
+      to: "/projects/payments",
+      image: {
+        src: "/images/blogs/payments/card-sm.webp",
+        alt: "Payments",
+      },
+    },
   },
 };
