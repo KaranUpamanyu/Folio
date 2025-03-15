@@ -1,7 +1,13 @@
 import React from "react";
+import { Metadata } from "next";
 import GraphQLOptimizationCard from "@/components/Cards/Projects/GraphQLOptimization";
 import ChatbotCard from "@/components/Cards/Projects/Chatbot";
 import PageHeader from "@/components/PageHeader";
+
+export const metadata: Metadata = {
+  title: "Karan Upamanyu | Lyearn",
+  description: "Karan's experience at Lyearn",
+};
 
 const LyearnContent = (
   <>

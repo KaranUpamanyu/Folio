@@ -1,8 +1,13 @@
 import React from "react";
+import { Metadata } from "next";
 import Image from "next/image";
 import data from "@/data";
-// import FooterNavbar from "@/components/FooterNav";
 import PageHeader from "@/components/PageHeader";
+
+export const metadata: Metadata = {
+  title: "GraphQL Optimization | Karan Upamanyu",
+  description: "Karan's experience optimizing Lyearn's dashboard page",
+};
 
 const content = data.projects.homeGraphQL;
 

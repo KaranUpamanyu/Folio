@@ -1,7 +1,13 @@
 import React from "react";
+import { Metadata } from "next";
 import PerformanceOptimizationCard from "@/components/Cards/Projects/PerformanceOptimization";
 import PageHeader from "@/components/PageHeader";
 import PaymentsCard from "@/components/Cards/Projects/Payments";
+
+export const metadata: Metadata = {
+  title: "Karan Upamanyu | Springboard",
+  description: "Karan's experience at Springboard",
+};
 
 const SpringboardContent = (
   <>

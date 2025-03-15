@@ -1,7 +1,13 @@
 import React from "react";
+import { Metadata } from "next";
 import Image from "next/image";
 import data from "@/data";
 import PageHeader from "@/components/PageHeader";
+
+export const metadata: Metadata = {
+  title: "Payment Improvements | Karan Upamanyu",
+  description: "Karan's experience improving Springboard's payment system",
+};
 
 const content = data.projects.payments;
 

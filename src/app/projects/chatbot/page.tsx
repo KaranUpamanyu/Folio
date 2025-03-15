@@ -1,9 +1,15 @@
 import React from "react";
+import { Metadata } from "next";
 import Image from "next/image";
 import data from "@/data";
 import PageHeader from "@/components/PageHeader";
 
 const content = data.projects.chatbot;
+
+export const metadata: Metadata = {
+  title: "Chatbot | Karan Upamanyu",
+  description: "Karan's experience building Lyearn's chatbot",
+};
 
 export default function Chatbot() {
   return (

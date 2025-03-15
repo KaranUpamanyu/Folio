@@ -1,7 +1,14 @@
 import React from "react";
+import { Metadata } from "next";
 import Image from "next/image";
 import data from "@/data";
 import PageHeader from "@/components/PageHeader";
+
+export const metadata: Metadata = {
+  title: "Performance Optimization | Karan Upamanyu",
+  description:
+    "Karan's experience improving Springboard's marketing website's performance",
+};
 
 const content = data.projects.performanceOptimization;
 
@@ -377,9 +384,9 @@ export default function PerformanceOptimization() {
 
         <p>
           Through these optimizations, we improved our{" "}
-          <b>mobile PageSpeed Insights score from 30 to 50</b>.
-          Other metrics like FCP and LCP also improved significantly, making for
-          a <b>much better user experience</b>.
+          <b>mobile PageSpeed Insights score from 30 to 50</b>. Other metrics
+          like FCP and LCP also improved significantly, making for a{" "}
+          <b>much better user experience</b>.
         </p>
       </div>
     </>

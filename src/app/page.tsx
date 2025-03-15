@@ -1,3 +1,5 @@
+import type { Metadata } from "next";
+
 import Greeting from "@/components/Greeting";
 
 import Lyearn from "@/components/Cards/Work/LyearnCard";
@@ -7,6 +9,11 @@ import GraphQLOptimizationCard from "@/components/Cards/Projects/GraphQLOptimiza
 import ChatbotCard from "@/components/Cards/Projects/Chatbot";
 import PerformanceOptimizationCard from "@/components/Cards/Projects/PerformanceOptimization";
 import PaymentsCard from "@/components/Cards/Projects/Payments";
+
+export const metadata: Metadata = {
+  title: "Karan Upamanyu | Portfolio",
+  description: "Karan's portfolio website",
+};
 
 export default function Home() {
   return (
