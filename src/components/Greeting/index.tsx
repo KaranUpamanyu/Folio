@@ -7,12 +7,7 @@ import MotionDiv from "@/components/Motion";
 
 const Link = styled.a`
   text-underline-offset: 4px;
-  transition: color 150ms;
-  text-decoration: none;
-
-  &.dotted-link {
-    text-decoration: underline dotted var(--color-emerald-500);
-  }
+  text-decoration: underline dotted var(--color-emerald-500);
 
   &:hover {
     text-decoration: underline wavy var(--color-emerald-500);
