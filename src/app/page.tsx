@@ -5,6 +5,7 @@ import Springboard from "@/components/Cards/Work/SpringboardCard";
 
 import GraphQLOptimizationCard from "@/components/Cards/Projects/GraphQLOptimization";
 import ChatbotCard from "@/components/Cards/Projects/Chatbot";
+import PerformanceOptimizationCard from "@/components/Cards/Projects/PerformanceOptimization";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <Springboard />
         <ChatbotCard />
         <GraphQLOptimizationCard />
+        <PerformanceOptimizationCard />
       </div>
     </>
   );

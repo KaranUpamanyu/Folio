@@ -66,3 +66,12 @@ ul li:first-child {
 i {
   margin-top: 4px;
 }
+
+a.styled-link {
+  text-underline-offset: 2px;
+  text-decoration: underline dotted var(--color-emerald-500);
+}
+
+a.styled-link:hover {
+  text-decoration: underline wavy var(--color-emerald-500);
+}

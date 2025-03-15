@@ -10,6 +10,10 @@ const Link = styled.a`
   transition: color 150ms;
   text-decoration: none;
 
+  &.dotted-link {
+    text-decoration: underline dotted var(--color-emerald-500);
+  }
+
   &:hover {
     text-decoration: underline wavy var(--color-emerald-500);
   }
@@ -36,7 +40,7 @@ function Greeting() {
             <Link
               href="https://www.lyearn.com/"
               target="blank"
-              className="cursor-alias text-neutral-900"
+              className="cursor-alias text-neutral-900 dotted-link"
             >
               Lyearn
             </Link>{" "}
@@ -44,7 +48,7 @@ function Greeting() {
             <Link
               href="https://www.springboard.com/"
               target="blank"
-              className="cursor-alias text-neutral-900"
+              className="cursor-alias text-neutral-900 dotted-link"
             >
               Springboard
             </Link>

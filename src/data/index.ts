@@ -38,5 +38,14 @@ export default {
         alt: "Chatbot",
       },
     },
+    performanceOptimization: {
+      title: "Optimizing Springboard's Website Performance",
+      type: "Project",
+      to: "/projects/performance-optimization",
+      image: {
+        src: "/images/blogs/performance-optimization/card.png",
+        alt: "Chatbot",
+      },
+    },
   },
 };
