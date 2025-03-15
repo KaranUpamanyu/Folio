@@ -23,14 +23,21 @@ export const Name = styled.a`
 
 function Navbar() {
   return (
-    <nav className="isolate flex flex-row items-center justify-center md:justify-between py-[16px]">
-      <Name href="/" className="fraunces text-2xl">
+    <nav className="isolate flex flex-row items-center justify-between py-[16px]">
+      <Name href="/" className="fraunces text-lg md:text-2xl">
         Karan Upamanyu
       </Name>
 
-      <div className="flex flex-row space-x-4 hidden md:block">
+      <div className="flex flex-row space-x-4">
         <NavLink
           className="text-sm cursor-alias text-neutral-400 hover:text-neutral-800"
+          href="https://linkedin.com/in/kvup/"
+          target="_blank"
+        >
+          LinkedIn
+        </NavLink>
+        <NavLink
+          className="text-sm cursor-alias text-neutral-400 hover:text-neutral-800 hidden md:block"
           href="https://github.com/KaranUpamanyu"
           target="_blank"
         >
