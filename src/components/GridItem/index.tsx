@@ -8,7 +8,7 @@ function GridItem({
   className: string;
   children: React.ReactNode;
 }) {
-  return <div className={cn(className, "px-[2px] pb-[4px]")}>{children}</div>;
+  return <div className={cn(className, "px-[4px] pb-[8px]")}>{children}</div>;
 }
 
 export default GridItem;

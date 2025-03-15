@@ -7,6 +7,7 @@ function MotionDiv({ children }: { children: React.ReactNode }) {
       animate={{ opacity: 1, y: "0%" }}
       initial={{ opacity: 0, y: "3%" }}
       transition={{ duration: 0.4 }}
+      className="h-full"
     >
       {children}
     </motion.div>
