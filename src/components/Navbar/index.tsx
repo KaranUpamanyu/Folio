@@ -23,7 +23,7 @@ export const Name = styled.a`
 
 function Navbar() {
   return (
-    <div className="isolate flex flex-row items-center justify-center md:justify-between py-[16px]">
+    <nav className="isolate flex flex-row items-center justify-center md:justify-between py-[16px]">
       <Name href="/" className="fraunces text-2xl">
         Karan Upamanyu
       </Name>
@@ -44,7 +44,7 @@ function Navbar() {
           Resume
         </NavLink>
       </div>
-    </div>
+    </nav>
   );
 }
 
