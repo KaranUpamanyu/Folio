@@ -1,4 +1,5 @@
 import { Inter, Fraunces } from "next/font/google";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import StyledComponentsRegistry from "@/lib/registry";
@@ -30,6 +31,7 @@ export default function RootLayout({
           <Footer />
         </StyledComponentsRegistry>
       </body>
+      <GoogleAnalytics gaId="G-PLVLBXPBDR" />
     </html>
   );
 }
