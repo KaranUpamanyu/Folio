@@ -23,9 +23,12 @@ const LyearnContent = (
         </a>
       </span>{" "}
       is an{" "}
-      <span className="text-neutral-700">employee experience platform</span> and
-      a <span className="text-neutral-700">B2B SaaS</span> company.
+      <span className="text-neutral-700">
+        B2B SaaS employee learning and productivity
+      </span>{" "}
+      platform.
     </p>
+    <br />
     <p>
       Lyearn’s features are divided into{" "}
       <span className="text-neutral-700">four key verticals</span>:
@@ -37,26 +40,26 @@ const LyearnContent = (
       </li>
       <li>
         <span className="text-neutral-700">Learn</span> – Create and manage
-        courses, articles, quizzes, assignments, and sessions .
+        courses, articles, quizzes, assignments, and sessions.
       </li>
       <li>
-        <span className="text-neutral-700">Perform</span> – Handle performance
+        <span className="text-neutral-700">Perform</span> – Conduct performance
         reviews (like Lattice), ticket management (like Jira/Linear), and
-        habit/activity tracking .
+        habit/activity tracking.
       </li>
       <li>
         <span className="text-neutral-700">Engage</span> – Facilitate surveys,
         communities (like Slack), 1:1 meetings, praise walls, and feedback
-        requests/offers .
+        requests/offers.
       </li>
     </ul>
     <br />
     <p>
       Recently, Lyearn has been expanding into a{" "}
       <span className="text-neutral-700">self-serve B2C platform</span> and
-      integrating{" "}
-      <span className="text-neutral-700">AI-powered knowledge management</span>
-      —both of which I’ve worked on extensively.
+      building several{" "}
+      <span className="text-neutral-700">AI-powered features</span> - which I’ve
+      been working on extensively and written blogs about.
     </p>
     <br />
     <p>
@@ -67,7 +70,7 @@ const LyearnContent = (
     </p>
     <br />
     <p>
-      I joined Lyearn in <span className="text-neutral-700">August 2022</span>{" "}
+      I joined Lyearn in <span className="text-neutral-700">August 2024</span>{" "}
       and I currently{" "}
       <span className="text-neutral-700">lead the frontend team</span>.
     </p>
