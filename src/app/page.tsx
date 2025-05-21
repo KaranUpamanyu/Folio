@@ -9,6 +9,7 @@ import GraphQLOptimizationCard from "@/components/Cards/Projects/GraphQLOptimiza
 import ChatbotCard from "@/components/Cards/Projects/Chatbot";
 import PerformanceOptimizationCard from "@/components/Cards/Projects/PerformanceOptimization";
 import PaymentsCard from "@/components/Cards/Projects/Payments";
+import SubscriptionRetryMechanismCard from "@/components/Cards/Projects/RetryMechanism";
 
 export const metadata: Metadata = {
   title: "Karan Upamanyu | Portfolio",
@@ -23,6 +24,7 @@ export default function Home() {
         <Lyearn />
         <Springboard />
         <ChatbotCard />
+        <SubscriptionRetryMechanismCard />
         <PerformanceOptimizationCard />
         <PaymentsCard />
         <GraphQLOptimizationCard />

@@ -43,6 +43,10 @@ code {
   background: var(--color-neutral-200);
 }
 
+pre code {
+  background: unset;
+}
+
 ul {
   margin-left: 20px;
   list-style: disc;
@@ -78,4 +82,10 @@ a.styled-link:hover {
 
 b {
   font-weight: 600;
+}
+
+pre {
+  padding: 24px 16px;
+  overflow: scroll;
+  border-radius: 8px;
 }

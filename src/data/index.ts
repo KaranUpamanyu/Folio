@@ -56,5 +56,14 @@ export default {
         alt: "Payments",
       },
     },
+    retryMechanism: {
+      title: "Strengthening Subscriptions with Retry Mechanisms in React",
+      type: "Project",
+      to: "/projects/retry-mechanism",
+      image: {
+        src: "/images/blogs/retry-mechanism/loading-subscription.png",
+        alt: "Subscription Retry Mechanism",
+      },
+    },
   },
 };
