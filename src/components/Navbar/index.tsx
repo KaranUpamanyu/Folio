@@ -18,6 +18,7 @@ export const Name = styled.a`
   &:hover {
     color: #171717;
     text-decoration: underline wavy var(--color-emerald-500);
+    text-decoration-thickness: 1.8px;
   }
 `;
 

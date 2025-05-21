@@ -8,9 +8,11 @@ import MotionDiv from "@/components/Motion";
 const Link = styled.a`
   text-underline-offset: 4px;
   text-decoration: underline dotted var(--color-emerald-500);
+  text-decoration-thickness: 4px;
 
   &:hover {
     text-decoration: underline wavy var(--color-emerald-500);
+    text-decoration-thickness: 1.8px;
   }
 `;
 
